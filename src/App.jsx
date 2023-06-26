@@ -20,6 +20,8 @@ import NotFoundPage from "./pages/NotFoundPage"
 import CommunityEventPage from "./pages/CommunityEventPage"
 import Homepage from "./pages/Homepage"
 import Notifikasi from "./pages/Notification"
+import Edit from "./pages/EditProfile"
+import Eksplor from "./pages/Eksplor"
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
 
         <Route path="/homepage" Component={Homepage} />
         <Route path="/notifikasi" Component={Notifikasi} />
+        <Route path="/editprofile" Component={Edit} />
+        <Route path="/eksplor" Component={Eksplor} />
         <Route path="/search-community" Component={SearchCommunityPage} />
         <Route path="/discussion-page" Component={DiscussionPage} />
         <Route path="/description-page" Component={DescPage} />
